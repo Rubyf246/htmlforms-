@@ -3,6 +3,15 @@
 <html>
 <head>
     <title>My first website</title>
+    <script>
+        window.onload = function() {
+            joeButton = document.getElementById("joe")
+            joeButton.addEventListener('click', function() {
+                data = document.getElementById('fname')
+                console.log(data.value)
+            })
+        }
+    </script>
 </head>
 <body>
 
@@ -93,7 +102,9 @@
         <div>
             <input type="reset">
         </div>
-
+        <DIV>
+            <input type="button" id="joe">
+        </DIV>
         <br>
 
         <div>
