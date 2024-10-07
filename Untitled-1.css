@@ -1,0 +1,12 @@
+/* Hide all */
+.summary-thumbnail-event-date {
+   display: none !important;
+}
+/* Hide MONTH */
+span.summary-thumbnail-event-date-month {
+   display: none !important;
+}
+/* Hide DATE */
+span.summary-thumbnail-event-date-day {
+   display: none !important;
+}
